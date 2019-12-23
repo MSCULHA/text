@@ -12,14 +12,21 @@ void main(){
     title: "Flutter Dersleri",
     routes: {
       '/' : (context) => Home(),
+      '/APage' : (context) => Home(),
+
 
 
     },
 
+    Navigator.pushReplacementNamed(context, "APage");
 
   ));
 
+
+
+
 }
+
 
 /*
 
